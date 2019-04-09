@@ -12,11 +12,9 @@ def using_pop(array)
   great_hits_of_the_nineties
   deleted_string
 end
-def pop_with_args(array)
-  chars_in_game_of_thrones = ["Danny T.", "Tyrion Lannister", "Stable Boy", "Sandor Clegane"]
-  wtf = chars_in_game_of_thrones.pop(2)
-  chars_in_game_of_thrones
-  wtf
+def pop_with_args(chars_in_game_of_thrones)
+  @chars_in_game_of_thrones = ["Danny T.", "Tyrion Lannister", "Stable Boy", "Sandor Clegane"]
+  @chars_in_game_of_thrones.pop(2)
 end
 def using_shift(array)
   my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
