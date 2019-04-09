@@ -42,10 +42,7 @@ def using_flatten(array)
   array.flatten 
 end 
 def using_delete (array, string)
-  instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-  sorry_steven = instructors.delete("Steven")
-  instructors
-  sorry_steven
+  array.delete(string)
 end
 def using_delete_at(array, integer)
   famous_robots = ["the dog from doctor who", "R2D2", "Ultron"]
